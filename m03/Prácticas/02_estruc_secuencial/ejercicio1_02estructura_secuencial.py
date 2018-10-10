@@ -4,7 +4,7 @@
 #Alejandro López	
 #isx43567395	
 #07/10/2018	
-#Version final
+#Versión final
 
 #Que hace el script --> Asignar 3 sueldos de 3 empleados y aplicarles un aumento del 10,12 y 15% respectivamente.
 #Especificaciones de Entrada
