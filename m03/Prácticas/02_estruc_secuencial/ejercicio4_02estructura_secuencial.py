@@ -4,7 +4,7 @@
 #Alejandro López	
 #isx43567395	
 #07/10/2018	
-#Version final
+#Versión final
 
 #Que hace el script --> Programa que pida horas, minutos y segundos con valor entero y pasarlos al formato correcto.
 #Especificaciones de Entrada.
