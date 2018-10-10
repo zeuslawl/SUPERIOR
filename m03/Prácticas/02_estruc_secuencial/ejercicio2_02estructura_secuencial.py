@@ -4,7 +4,7 @@
 #Alejandro López	
 #isx43567395	
 #07/10/2018	
-#Version final
+#Versión final
 
 #Que hace el script --> Programa que lee el nombre del trabajador,las horas trabajadas, el precio que cobra por hora, salario bruto y salario neto.
 #Especificaciones de Entrada.
