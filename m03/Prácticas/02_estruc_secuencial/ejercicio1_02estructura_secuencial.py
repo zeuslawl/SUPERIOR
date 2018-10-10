@@ -28,6 +28,5 @@ aumento15= sueldo3*15//100 + sueldo3
 print ('Sueldos iniciales ', sueldo1,sueldo2,sueldo3 )
 print ('El resultado despues de aplicar el aumento del 10% es ', aumento10)
 print ('El resultado despues de aplicar el aumento del 12% es ', aumento12)
-
 print ('El resultado despues de aplicar el aumento del 15% es ', aumento15 )
 
