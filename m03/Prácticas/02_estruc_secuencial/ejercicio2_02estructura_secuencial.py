@@ -11,11 +11,11 @@
 #Nombre del trabajador,horas trabajadas, dinero que cobra por hora.
 
 #Nombre, horas trabajadas y precio por hora.
-nombredeltrabajador= 'Alfredo'
+nombredeltrabajador=(input('Introduce el nombre del trabajador: '))
 
-horastrabajadas = 160
+horastrabajadas=float(input('Introduce las horas trabajadas: '))
 
-precioporhora= 10
+precioporhora=float(input('Introduce el precio que cobra por hora: '))
 
 #Operaciones, sueldo bruto, descuento en concepto de renta y sueldo neto
 sueldobruto= horastrabajadas * precioporhora
@@ -32,4 +32,5 @@ print ('Sueldo bruto ', sueldobruto, '€')
 print ('Descuento de renta ', descuentoderenta, '€')
 
 print ('Sueldo a pagar', sueldoneto, '€' )
+
 
