@@ -33,4 +33,3 @@ print ('Descuento de renta ', descuentoderenta, '€')
 
 print ('Sueldo a pagar', sueldoneto, '€' )
 
-
