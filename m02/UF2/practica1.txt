@@ -1,0 +1,57 @@
+PRÀCTICA 1. M02
+
+1- Instal·lar postgresql
+
+2-  veure bases de dades : \l
+
+3- CREATE DATABASE:
+
+CREATE DATABASE practica1; 
+4- \c practica1;
+5- \d
+6- CREATE TABLE:
+CREATE TABLE alumnes (
+    IDAlumne integer NOT NULL,
+    NomAlumne character(20) NOT NULL,
+    CognomsAlumne character(20) NOT NULL,
+    DataNaix date NOT NULL,
+    Curs smallint NOT NULL,
+    IDCicle character(5)
+);
+
+7- Omplir de registres/files/rows:
+COPY alumnes (IDAlumne, NomAlumne, CognomsAlumne, DataNaix, Curs, IDCicle) FROM stdin;
+cal entrar les dades separades per TAB.
+Cada ENTER és un nou registre;
+Per acabar posar \.
+
+8- SELECT * FROM alumnes;
+
+9- WHERE
+Seleccionar els alumnes d'ISIX
+
+10- Seleccionar els alumnes majors de 20 anys;
+Corregir camps nom i cognom de la taula alumnes i passar-los de character a varchar:
+
+Veure la longitud dels noms d'alumnes:
+select char_length(NomAlumne) from alumnes;
+
+select char_length(ltrim(NomAlumne))from alumnes;
+
+select char_length(rtrim(NomAlumne))from alumnes;
+
+
+11- CREATE TABLE:
+CREATE TABLE alumnes (
+    IDAlumne integer NOT NULL,
+	NomAlumne varchar(20) NOT NULL,
+	CognomsAlumne varchar(20) NOT NULL,
+    DataNaix date NOT NULL,
+    Curs smallint NOT NULL,
+    IDCicle character(5) NOT NULL
+);
+
+ALTER TABLE alumnes ALTER COLUMN nomalumne TYPE varchar(20);
+ALTER TABLE alumnes ALTER COLUMN cognomsalumne TYPE varchar(20);
+
+Tornar a veure la longitud dels noms

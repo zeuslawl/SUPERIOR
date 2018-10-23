@@ -1,0 +1,33 @@
+ Productos copiar de /tmp/productos.dat
+
+
+Productos COPIA
+
+DE '/tmp/productos.dat';
+
+
+pedidos COPIA
+
+DE '/tmp/pedidos.dat';
+
+
+repventas COPIA
+
+DE '/tmp/repventas.dat';
+
+
+Clientes copiar de /tmp/clientes.csv
+
+
+Clientes COPIA
+
+DE '/tmp/clientes.csv'
+
+CSV DELIMITER '';
+
+
+oficinas COPIA
+
+DE '/tmp/oficinas.csv'
+
+CSV DELIMITER ''; 
